@@ -1,5 +1,5 @@
 import React from "react";
-import Student from "./PRACTICAL 2/Student";
+import Student from "./Student";
 
 function App() {
   return (
