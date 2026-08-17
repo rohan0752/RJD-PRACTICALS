@@ -1,5 +1,5 @@
 import React from "react";
-import LoginStatus from "./PRACTICAL 6/LoginStatus";
+import LoginStatus from "./LoginStatus";
 
 function App() {
   return <LoginStatus />;
