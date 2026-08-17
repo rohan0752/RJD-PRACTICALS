@@ -19,8 +19,33 @@ function App() {
   }
 
   if (path === "/practical-2") {
-    return <Student />;
-  }
+  return (
+    <div>
+      <h1>Student Details</h1>
+
+      <Student
+        name="Rahul Kumar"
+        rollNo="101"
+        course="BCA"
+        marks="85%"
+      />
+
+      <Student
+        name="Priya Singh"
+        rollNo="102"
+        course="BCA"
+        marks="92%"
+      />
+
+      <Student
+        name="Amit Sharma"
+        rollNo="103"
+        course="BCA"
+        marks="78%"
+      />
+    </div>
+  );
+}
 
   if (path === "/practical-3") {
     return <Counter />;
