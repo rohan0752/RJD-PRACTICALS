@@ -1,5 +1,5 @@
 import React from "react";
-import ProductList from "./PRACTICAL 7/ProductList";
+import ProductList from "./ProductList";
 
 function App() {
   return <ProductList />;
