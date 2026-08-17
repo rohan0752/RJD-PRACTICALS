@@ -1,13 +1,8 @@
 import React from "react";
-import ColorChanger from "./PRACTICAL 4/ColorChanger";
+import PasswordInput from "./PRACTICAL 5/PasswordInput";
 
 function App() {
-  return (
-    <div>
-      <h1>Event Handling Example</h1>
-      <ColorChanger />
-    </div>
-  );
+  return <PasswordInput />;
 }
 
 export default App;
