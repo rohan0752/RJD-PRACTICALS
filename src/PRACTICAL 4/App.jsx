@@ -1,5 +1,5 @@
 import React from "react";
-import ColorChanger from "./PRACTICAL 4/ColorChanger";
+import ColorChanger from "./ColorChanger";
 
 function App() {
   return (

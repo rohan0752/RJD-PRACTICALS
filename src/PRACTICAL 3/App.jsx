@@ -1,5 +1,5 @@
 import React from "react";
-import Counter from "./PRACTICAL 3/Counter";
+import Counter from "./Counter";
 
 function App() {
   return (
