@@ -1,5 +1,5 @@
 import React from "react";
-import TemperatureConverter from "./PRACTICAL 9/TemperatureConverter";
+import TemperatureConverter from "./TemperatureConverter";
 
 function App() {
   return <TemperatureConverter />;
