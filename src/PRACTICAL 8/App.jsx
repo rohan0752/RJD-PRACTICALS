@@ -1,5 +1,5 @@
 import React from "react";
-import Calculator from "./PRACTICAL 8/Calculator";
+import Calculator from "./Calculator";
 
 function App() {
   return <Calculator />;
