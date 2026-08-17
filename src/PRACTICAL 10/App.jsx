@@ -1,5 +1,5 @@
 import React from "react";
-import DigitalClock from "./PRACTICAL 10/DigitalClock";
+import DigitalClock from "./DigitalClock";
 
 function App() {
   return <DigitalClock />;
