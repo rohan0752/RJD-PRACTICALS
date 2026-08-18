@@ -1,37 +1,32 @@
 import React, { useState } from "react";
 
 function ColorChanger() {
-  const [bgColor, setBgColor] = useState("white");
+  const [color, setColor] = useState("white");
 
-  const changeColor = (color) => {
-    setBgColor(color);
+  const handleColorChange = (event) => {
+    setColor(event.target.value);
   };
 
   return (
     <div
       style={{
-        backgroundColor: bgColor,
+        backgroundColor: color,
+        minHeight: "100vh",
         padding: "30px",
-        textAlign: "center"
+        textAlign: "center",
       }}
     >
-      <h2>Change Background Color</h2>
+      <h1>Background Color Changer</h1>
 
-      <button onClick={() => changeColor("lightblue")}>
-        Blue
-      </button>
+      <p>Select a color to change the background:</p>
 
-      <button onClick={() => changeColor("lightgreen")}>
-        Green
-      </button>
+      <input
+        type="color"
+        value={color}
+        onChange={handleColorChange}
+      />
 
-      <button onClick={() => changeColor("lightcoral")}>
-        Red
-      </button>
-
-      <button onClick={() => changeColor("white")}>
-        Reset
-      </button>
+      <p>Selected Color: {color}</p>
     </div>
   );
 }
