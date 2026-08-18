@@ -12,40 +12,40 @@ import TemperatureConverter from "./PRACTICAL 9/TemperatureConverter";
 import DigitalClock from "./PRACTICAL 10/DigitalClock";
 
 function App() {
-  const path = window.location.pathname.replace(/\/$/, "");
+  const path = window.location.pathname;
 
   if (path === "/practical-1") {
     return <Practical1 />;
   }
 
   if (path === "/practical-2") {
-  return (
-    <div>
-      <h1>Student Details</h1>
+    return (
+      <div>
+        <h1>Student Details</h1>
 
-      <Student
-        name="Rahul Kumar"
-        rollNo="101"
-        course="BCA"
-        marks="85%"
-      />
+        <Student
+          name="Rahul Kumar"
+          rollNo="101"
+          course="BCA"
+          marks="85%"
+        />
 
-      <Student
-        name="Priya Singh"
-        rollNo="102"
-        course="BCA"
-        marks="92%"
-      />
+        <Student
+          name="Priya Singh"
+          rollNo="102"
+          course="BCA"
+          marks="92%"
+        />
 
-      <Student
-        name="Amit Sharma"
-        rollNo="103"
-        course="BCA"
-        marks="78%"
-      />
-    </div>
-  );
-}
+        <Student
+          name="Amit Sharma"
+          rollNo="103"
+          course="BCA"
+          marks="78%"
+        />
+      </div>
+    );
+  }
 
   if (path === "/practical-3") {
     return <Counter />;
